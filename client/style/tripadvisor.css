@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Uni Sans';
+  font-weight: 100;
+  src: url('/fonts/unisansfree/Uni Sans Thin.otf');
+}
+@font-face {
+  font-family: 'Uni Sans';
+  font-weight: 700;
+  src: url('/fonts/unisansfree/Uni Sans Heavy.otf');
+}
+
+@font-face {
+	font-family: 'Bebas Neue';
+	src: url('/fonts/BebasNeue.otf');
+}
+
+

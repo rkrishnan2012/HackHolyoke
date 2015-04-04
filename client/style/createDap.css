@@ -1,0 +1,36 @@
+.createDap input{
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+.createDap .btn{
+	width: 100px;
+	text-align: center;
+	margin-left: auto;
+ 	margin-right: auto;
+ 	background-color: rgba(255, 0, 0, 0);
+    border: 1px solid white;
+    margin-top: 20px;
+}
+
+.groupMembersHeading{
+	text-align: left;
+}
+
+.groupMembers{
+	margin-top: 50px;
+}
+.createDap{
+	margin-top: 100px;
+}
+
+.createDap h2{
+	text-align: left;
+}
+
+.btnSend{
+	width: 100px;
+  	float: right;
+  	background-color: rgba(255, 255, 255, 0);
+  	border: 1px solid;
+}

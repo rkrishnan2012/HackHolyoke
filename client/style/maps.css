@@ -1,0 +1,24 @@
+/* CSS declarations go here */
+#map-canvas { 
+	width: 77%;
+	height: 400px;
+	position: absolute;
+	top: 100px;
+	left: 13em;
+	border-radius: 15px;
+	border-bottom: #95a5a4 5px solid;
+}
+
+.mapsPageSubtext{
+	text-align:center;
+	margin-top: 400px;
+	margin-left:auto;
+	margin-right: auto;
+	font-size: 26pt;
+}
+
+.mapsPageSubtext .btn{
+	font-size: 15pt;
+	background-color: transparent;
+	color: white;
+}

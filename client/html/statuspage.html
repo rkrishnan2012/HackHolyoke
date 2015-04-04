@@ -1,0 +1,15 @@
+<template name="statusPage">
+<div class="statusPage">
+	<h1>{{commonPlace}}</h1>
+	<h6>This page will be updated automagically.</h6>	
+	<div class="groupMembers">
+	<h2 class="groupMembersHeading">Participants</h2>
+	<hr/>
+	{{#each groupMembers}} {{> participant}} {{/each}}
+</div>
+</div>
+</template>
+
+<template name="participant">
+{{phoneNumber}}
+</template>

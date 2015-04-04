@@ -1,0 +1,45 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../favicon.ico">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHu_rbvc8QwcZze4pCS3AuJASFEbefBk8"></script>
+  <title>Daps</title>
+</head>
+<body>
+</body>
+<template name="mainLayout">
+<div class="site-wrapper">
+  <div class="site-wrapper-inner">
+    <div class="cover-container">
+      {{> header}}
+      {{> yield}}
+      {{> footer}}
+    </div>
+  </div>
+</div>
+</template>
+<template name="header">
+<div class="masthead clearfix">
+  <div class="inner">
+    <h3 class="masthead-brand">Daps</h3>
+    <nav>
+      <ul class="nav masthead-nav">
+        <li><a href="/">Home</a></li>
+        <li><a href="/map">Map</a></li>
+        <li><a href="/new">Invite</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+</template>
+<template name="footer">
+<div class="mastfoot">
+  <div class="inner">
+    <p>Built with <span class="glyphicon glyphicon-heart"></span> @ Hack TripAdvisor</p>
+  </div>
+</div>
+</template>
