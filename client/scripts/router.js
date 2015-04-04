@@ -4,27 +4,8 @@ Router.configure({
 });
 
 Router.map(function() {
-  this.route('frontPage', {
+  this.route('frontpage', {
     path: '/'
   });
 
-  this.route('mapsPage', {
-    path: '/map'
-  });
-
-  this.route('new', {
-  	path:'/new'
-  });
-
-  this.route('thanks', {
-    path:'/thanks'
-  });
-
-  this.route('confirmPage', {
-    path:'/confirm'
-  });
-
-  this.route('statusPage', {
-    path:'/status'
-  });
 });
