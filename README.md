@@ -11,6 +11,10 @@ Music Mask is a web application that uses facial recognition software to determi
   <img src="/public/images/screenshot3.png"/>
 </p>
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=_5P5A0QgCVE
+" target="_blank"><img src="http://img.youtube.com/vi/_5P5A0QgCVE/0.jpg" 
+alt="Happy Face" width="240" height="180" border="10" /></a>
+
 Tech
 --------------
 

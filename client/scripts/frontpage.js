@@ -168,7 +168,13 @@ function renderRadarChart(data) {
     };
 
     var options = {
+        animation: true,
 
+        // Number - Number of animation steps
+        animationSteps: 60,
+
+        // String - Animation easing effect
+        animationEasing: "easeOutBounce",
         //Boolean - Whether to show lines for each scale point
         scaleShowLine: true,
 
@@ -229,8 +235,8 @@ function renderRadarChart(data) {
 }
 
 function retakePicture() {
-	$(".retakePicture").hide("slow");
-	$(".progress").hide("slow");
+    $(".retakePicture").hide("slow");
+    $(".progress").hide("slow");
     var widgetIframe = document.getElementById('sc-widget');
 
     $("#previewCanvas").hide("slow", function() {
